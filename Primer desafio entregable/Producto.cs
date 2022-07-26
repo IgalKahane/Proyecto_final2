@@ -3,6 +3,7 @@
 
 public class Producto
 {
+    // variables
     public int id { get; set; }
     public string Detalle { get; set; }
     public double precio { get; set; }
@@ -10,6 +11,7 @@ public class Producto
     public int stock { get; set; }
     public int IdUsuario { get; set; }
 
+    // constructor
     public Producto()
     {
         id = 0325;
